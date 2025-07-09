@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="scripts/app.js"></script>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    <h1>Game is starting</h1>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <h3 id="text">click on the duck to start</h3>
+    <select name="difficulty" id="difficultySelector">
+      <option value="0">Very Easy</option>
+      <option value="1">Easy</option>
+      <option value="2">Medium</option>
+      <option value="3">Hard</option>
+      <option value="4">Impossible</option>
+    </select>
+    <button id="restart">Restart</button>
     <div class="grid-wrapper">
-        <div class="grid"></div>
+      <div class="grid"></div>
     </div>
-</body>
+    
+  </body>
 </html>

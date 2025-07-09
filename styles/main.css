@@ -17,6 +17,10 @@
 .duck{
     width: 55px;
     height: 55px;
-    background-image: url("../29-duck-png-image.png");
+    background-image: url("../Assets/29-duck-png-image.png");
     background-size: cover;
+}
+
+select, button, h3{
+    display: inline;
 }
