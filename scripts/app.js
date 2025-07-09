@@ -14,7 +14,7 @@ function init() {
         300
     ]
     const difficultiesNumOfDucks = [
-        5,4,3,2,1
+        5, 4, 3, 2, 1
     ]
     let timerOfAppear = 2000;
     let score = 0
@@ -71,7 +71,7 @@ function init() {
                         playSound()
                     })
                 }
-                else{
+                else {
                     currentCells = []
                 }
 
@@ -86,11 +86,10 @@ function init() {
     function start() {
         userClicks = 0
         timerOfAppear = difficulties[Number(difficultySelectorElem.value)]
-        numOfDucks = difficultiesNumOfDucks[Number(difficultySelectorElem.value)]+1
+        numOfDucks = difficultiesNumOfDucks[Number(difficultySelectorElem.value)] + 1
         score = 0;
         clearInterval(intrevalId)
-        if(currentCells.length != 0)
-        {
+        if (currentCells.length != 0) {
             for (let i = 0; i < currentCells.length; i++) {
                 currentCells[i].remove()
             }
