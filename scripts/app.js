@@ -16,7 +16,7 @@ function init() {
     const difficultiesNumOfDucks = [
         5,4,3,2,1
     ]
-    let timerOfAppear = 800;
+    let timerOfAppear = 2000;
     let score = 0
     let currentCells = [];
     let intrevalId;
