@@ -5,8 +5,11 @@
     display: flex;
 
 }
+.grid-wrapper{
+    display: inline;
+}
 .grid{
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     width: 600px;
     height: 600px;
@@ -19,8 +22,16 @@
     height: 55px;
     background-image: url("../Assets/29-duck-png-image.png");
     background-size: cover;
+    transition:linear;
+    transition-duration: 0.5s;
 }
 
 select, button, h3{
     display: inline;
+}
+
+#image{
+    display: inline;
+    float: right;
+    width: 400px;
 }
